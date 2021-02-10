@@ -34,7 +34,5 @@ phases:
     commands:
          - echo Build started on `date`
          - ls
-         - cd Automation-Project
-         - cd nunit-console
          - dotnet test
          
