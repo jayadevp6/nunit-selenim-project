@@ -34,7 +34,6 @@ phases:
     commands:
          - echo Build started on `date`
          - ls
-         - dotnet build
          - cd mysite-tests
          - dotnet test mysite-tests.csproj
          
